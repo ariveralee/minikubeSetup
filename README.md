@@ -1,6 +1,6 @@
 # Minikube installation guide
 
-##Steps
+## Steps
 
 Most of this is taken from the guide itself listed on Minikubes github page but I have curated the content to make it a bit easier for installing on OSX.
 
@@ -75,6 +75,7 @@ You should see the pod listed.
 ```
 $ curl $(minikube service hello-minikube --url)
 ```
+
 You should see some output but be able to determine that the command was successful.
 
 ## Usage
