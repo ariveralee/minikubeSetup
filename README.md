@@ -74,7 +74,7 @@ You should see the pod listed.
 
 ```
 $ curl $(minikube service hello-minikube --url)
-
+```
 You should see some output but be able to determine that the command was successful.
 
 ## Usage
