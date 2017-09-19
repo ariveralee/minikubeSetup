@@ -78,9 +78,9 @@ $ curl $(minikube service hello-minikube --url)
 
 You should see some output but be able to determine that the command was successful.
 
-## Usage
+## Usage for minikube
 
-### Stopping the service
+### Stopping the a cluster
 
 To stop the service you can do:
 
@@ -88,7 +88,7 @@ To stop the service you can do:
 $ minikube stop
 ```
 
-### Remove a service
+### Remove a cluster
 
 To delete a service you can do:
 
@@ -96,3 +96,14 @@ To delete a service you can do:
 $ minikube delete [service]
 ```
 
+### Removing a pod
+
+```
+$ kubectl delete [podname]
+```
+
+### Removing **all** pods
+
+```
+$ kubectl delete pods --all
+```
